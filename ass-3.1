@@ -1,0 +1,17 @@
+// creating a class Greeter with constructor inside it.
+
+class Greeter {
+	greeting: string;
+	constructor(message: string) {
+		this.greeting = message;
+  }
+// defining greet function 
+  greet() {
+  	return "Hello, " + this.greeting;
+  }
+}
+// printing the required values in the console
+let greeter = new Greeter("world");
+
+console.log("check value: ", greeter.greeting);
+console.log("check method: ", greeter.greet());
